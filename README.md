@@ -1,5 +1,5 @@
-#git_learning
-这是一个基于https://www.codedex.io/git-github 的git基础学习项目
+﻿# git_learning
+```bash
 git init
 git remote add origin <repository_url>
 git branch -M main
