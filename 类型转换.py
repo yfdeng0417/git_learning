@@ -1,0 +1,9 @@
+#提示用户输入商品名称，商品单价，商品数量，最后计算总价并格式化输出
+name=input('请输入商品名称：')
+price_str=input('请输入单价：')
+count_str=input('请输入数量：')
+price=float(price_str)
+count=int(count_str)
+totalprice=price*count
+print(f'商品名称为：{name}，商品单价为：{price:.2f}，'
+      f'商品数量为：{count},商品总价为：{totalprice:.2f}')

@@ -1,0 +1,7 @@
+name=input('请输入姓名：')
+print(name)
+age=input('请输入年龄：')
+print(type(age))
+age_int=int(age)
+print(type(age_int))
+print(isinstance(age_int,str))
